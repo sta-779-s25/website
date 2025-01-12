@@ -17,4 +17,3 @@ Course website is live at https://sta-779-s25.github.io/website.
 
 - The header image is a ["Data analytics vector" created by upklyak - www.freepik.com](https://www.freepik.com/vectors/data-analytics). 
 - The hex is designed by [Lucy D'Agostino McGowan](www.lucymcgowan.com)
-

@@ -1,0 +1,8 @@
+/.quarto/
+.Rproj.user
+/_site/
+/_freeze/
+.Rprofile
+.DS_Store
+.Rhistory
+.Rbuildignore

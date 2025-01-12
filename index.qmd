@@ -1,0 +1,40 @@
+---
+title: "{{< var course.title >}}"
+subtitle: "{{< var course.subtitle >}}"
+title-block-banner: "img/head.jpg"
+toc: false
+sidebar: false
+---
+
+### Teaching team and office hours
+
+|            |                                                                             |                                                                                                                                                                                                                                                                                                               |                                  |                |
+|---------------|--------------------|---------------|---------------|---------------|
+| Instructor | [{{< var instructor.name >}}]({{< var instructor.url >}}) | {{< var instructor.email >}} | [Book an appointment]({{< var instructor.appointment_url >}}) | Manchester 342 |
+|            | [Math & Stats Center](https://mathandstatscenter.wfu.edu/)                  | <a href="mailto:mathandstatscenter@wfu.edu" title="email"><i class="fa fa-envelope"></i></a>                                                                                                                                                                                                                 | By appointment                   | Kirby Hall 117 |
+
+::: grid
+::: {.g-col-12 .g-col-sm-6 .g-col-md-6}
+<br>
+
+# {{< fa university >}} {.icon}
+
+##### {{< var course.location >}} {.center}
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-6}
+<br>
+
+# {{< fa calendar >}} {.icon}
+
+##### {{< var course.time >}} {.center}
+:::
+:::
+
+### Texts
+
+{{< var course.text >}}
+
+### Materials
+
+This class is very hands on; be sure to bring a fully charged laptop to every class
