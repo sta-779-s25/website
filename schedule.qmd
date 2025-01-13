@@ -7,7 +7,7 @@ title: "{{< fa calendar >}} Schedule"
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 library(googlesheets4)
 library(gt)
-library(tidyverse)
+library(dplyr)
 gs4_deauth()
 d <- read_sheet("https://docs.google.com/spreadsheets/d/1qkeb5_YbNyN748khKtvkU3i0mcJ-7jvUo_nlMzsZmNE/")
 ```

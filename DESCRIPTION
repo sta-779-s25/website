@@ -1,6 +1,6 @@
 Title: Website
 Description: STA 779 Website
 Imports:
-  tidyverse,
-  gt
+  dplyr,
+  gt,
   googlesheets4
