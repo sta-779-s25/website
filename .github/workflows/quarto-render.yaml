@@ -12,7 +12,7 @@ jobs:
       contents: write
     steps:
       - name: Check out repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       
       - name: Setup dependencies
         run: | 
@@ -26,8 +26,8 @@ jobs:
 
       - name: Install packages
         run: |
-          R -e 'install.packages("renv")'
-          R -e 'renv::restore()'
+         if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+         renv::restore()
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
