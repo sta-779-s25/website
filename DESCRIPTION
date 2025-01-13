@@ -1,9 +1,8 @@
 Package: website
-Title: What the Package Does (One Line, Title Case)
+Title: STA 779 Spring 2025
 Version: 0.0.0.9000
 Authors@R: 
-    person("D'Agostino McGowan", "Lucy", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("D'Agostino McGowan", "Lucy"))
 Description: What the package does (one paragraph).
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
