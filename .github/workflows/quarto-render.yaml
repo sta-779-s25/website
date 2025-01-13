@@ -25,6 +25,7 @@ jobs:
       - uses: r-lib/actions/setup-renv@v2
 
       - name: Install packages
+        shell: Rscript {0}
         run: |
          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
          renv::restore()
